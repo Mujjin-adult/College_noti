@@ -12,5 +12,6 @@ dependencies = [
     "redis>=5.2.1",
     "requests>=2.32.4",
     "soupsieve>=2.7",
+    "sqlalchemy>=2.0.42",
     "tasks>=2.8.0",
 ]
