@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pdb
+*.egg
+*.egg-info
+dist/
+build/
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.sqlite3
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Local configuration
+config/
+key/
+secrets.json
+secret/
+*.pem
+*.key
+*.crt
+
+# PostgreSQL data (if mounted locally)
+pgdata/
+postgres_data/
+
+# Redis / Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# Generated files
+*.tar
+*.zip
+*.gz
+*.tgz
+*.bz2
+
+# Ignore temporary data
+tmp/
+temp/
