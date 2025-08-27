@@ -532,3 +532,4 @@ temp/
 
 *env
 env.example
+app/.env.example
